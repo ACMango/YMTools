@@ -1,0 +1,695 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64E4B3471F74EF34003C816F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E4B3461F74EF34003C816F /* main.m */; };
+		64E4B34A1F74EF34003C816F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E4B3491F74EF34003C816F /* AppDelegate.m */; };
+		64E4B3501F74EF34003C816F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64E4B34E1F74EF34003C816F /* Main.storyboard */; };
+		64E4B3521F74EF34003C816F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64E4B3511F74EF34003C816F /* Assets.xcassets */; };
+		64E4B3551F74EF34003C816F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64E4B3531F74EF34003C816F /* LaunchScreen.storyboard */; };
+		64E4B3601F74EF36003C816F /* YMToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E4B35F1F74EF36003C816F /* YMToolsTests.m */; };
+		64E4B36B1F74EF37003C816F /* YMToolsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E4B36A1F74EF37003C816F /* YMToolsUITests.m */; };
+		64E4B3B31F74F15F003C816F /* WJNetAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E4B3A01F74F15F003C816F /* WJNetAudioPlayer.m */; };
+		64E4B4171F74F5BD003C816F /* audio_queue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64E4B3F31F74F5BD003C816F /* audio_queue.cpp */; };
+		64E4B4181F74F5BD003C816F /* audio_stream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64E4B3F51F74F5BD003C816F /* audio_stream.cpp */; };
+		64E4B4191F74F5BD003C816F /* caching_stream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64E4B3F71F74F5BD003C816F /* caching_stream.cpp */; };
+		64E4B41A1F74F5BD003C816F /* file_output.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64E4B3F91F74F5BD003C816F /* file_output.cpp */; };
+		64E4B41B1F74F5BD003C816F /* file_stream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64E4B3FB1F74F5BD003C816F /* file_stream.cpp */; };
+		64E4B41C1F74F5BD003C816F /* FSAudioController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E4B3FF1F74F5BD003C816F /* FSAudioController.m */; };
+		64E4B41D1F74F5BD003C816F /* FSAudioStream.mm in Sources */ = {isa = PBXBuildFile; fileRef = 64E4B4011F74F5BD003C816F /* FSAudioStream.mm */; };
+		64E4B41E1F74F5BD003C816F /* FSCheckContentTypeRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E4B4031F74F5BD003C816F /* FSCheckContentTypeRequest.m */; };
+		64E4B41F1F74F5BD003C816F /* FSParsePlaylistRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E4B4051F74F5BD003C816F /* FSParsePlaylistRequest.m */; };
+		64E4B4201F74F5BD003C816F /* FSParseRssPodcastFeedRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E4B4071F74F5BD003C816F /* FSParseRssPodcastFeedRequest.m */; };
+		64E4B4211F74F5BD003C816F /* FSPlaylistItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E4B4091F74F5BD003C816F /* FSPlaylistItem.m */; };
+		64E4B4221F74F5BD003C816F /* FSXMLHttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E4B40B1F74F5BD003C816F /* FSXMLHttpRequest.m */; };
+		64E4B4231F74F5BD003C816F /* http_stream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64E4B40C1F74F5BD003C816F /* http_stream.cpp */; };
+		64E4B4241F74F5BD003C816F /* id3_parser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64E4B40E1F74F5BD003C816F /* id3_parser.cpp */; };
+		64E4B4251F74F5BD003C816F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 64E4B4101F74F5BD003C816F /* Info.plist */; };
+		64E4B4261F74F5BD003C816F /* input_stream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64E4B4111F74F5BD003C816F /* input_stream.cpp */; };
+		64E4B4271F74F5BD003C816F /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E4B4141F74F5BD003C816F /* Reachability.m */; };
+		64E4B4281F74F5BD003C816F /* stream_configuration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64E4B4151F74F5BD003C816F /* stream_configuration.cpp */; };
+		64E4B42B1F74F5F8003C816F /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 64E4B42A1F74F5F8003C816F /* libxml2.tbd */; };
+		64E4B42E1F74F6D9003C816F /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E4B42D1F74F6D9003C816F /* RootViewController.m */; };
+		64E4B4311F74F7F5003C816F /* AudioPlayerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E4B4301F74F7F5003C816F /* AudioPlayerVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		64E4B35C1F74EF36003C816F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64E4B33A1F74EF33003C816F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64E4B3411F74EF33003C816F;
+			remoteInfo = YMTools;
+		};
+		64E4B3671F74EF37003C816F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64E4B33A1F74EF33003C816F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64E4B3411F74EF33003C816F;
+			remoteInfo = YMTools;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		64E4B3421F74EF33003C816F /* YMTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YMTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64E4B3461F74EF34003C816F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		64E4B3481F74EF34003C816F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		64E4B3491F74EF34003C816F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		64E4B34F1F74EF34003C816F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		64E4B3511F74EF34003C816F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64E4B3541F74EF34003C816F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		64E4B3561F74EF34003C816F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64E4B35B1F74EF36003C816F /* YMToolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YMToolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64E4B35F1F74EF36003C816F /* YMToolsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMToolsTests.m; sourceTree = "<group>"; };
+		64E4B3611F74EF37003C816F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64E4B3661F74EF37003C816F /* YMToolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YMToolsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64E4B36A1F74EF37003C816F /* YMToolsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMToolsUITests.m; sourceTree = "<group>"; };
+		64E4B36C1F74EF37003C816F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64E4B3781F74EF6F003C816F /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		64E4B39F1F74F15F003C816F /* WJNetAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJNetAudioPlayer.h; sourceTree = "<group>"; };
+		64E4B3A01F74F15F003C816F /* WJNetAudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJNetAudioPlayer.m; sourceTree = "<group>"; };
+		64E4B3F31F74F5BD003C816F /* audio_queue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = audio_queue.cpp; sourceTree = "<group>"; };
+		64E4B3F41F74F5BD003C816F /* audio_queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = audio_queue.h; sourceTree = "<group>"; };
+		64E4B3F51F74F5BD003C816F /* audio_stream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = audio_stream.cpp; sourceTree = "<group>"; };
+		64E4B3F61F74F5BD003C816F /* audio_stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = audio_stream.h; sourceTree = "<group>"; };
+		64E4B3F71F74F5BD003C816F /* caching_stream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = caching_stream.cpp; sourceTree = "<group>"; };
+		64E4B3F81F74F5BD003C816F /* caching_stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = caching_stream.h; sourceTree = "<group>"; };
+		64E4B3F91F74F5BD003C816F /* file_output.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = file_output.cpp; sourceTree = "<group>"; };
+		64E4B3FA1F74F5BD003C816F /* file_output.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = file_output.h; sourceTree = "<group>"; };
+		64E4B3FB1F74F5BD003C816F /* file_stream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = file_stream.cpp; sourceTree = "<group>"; };
+		64E4B3FC1F74F5BD003C816F /* file_stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = file_stream.h; sourceTree = "<group>"; };
+		64E4B3FD1F74F5BD003C816F /* FreeStreamer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FreeStreamer.h; sourceTree = "<group>"; };
+		64E4B3FE1F74F5BD003C816F /* FSAudioController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSAudioController.h; sourceTree = "<group>"; };
+		64E4B3FF1F74F5BD003C816F /* FSAudioController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSAudioController.m; sourceTree = "<group>"; };
+		64E4B4001F74F5BD003C816F /* FSAudioStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSAudioStream.h; sourceTree = "<group>"; };
+		64E4B4011F74F5BD003C816F /* FSAudioStream.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FSAudioStream.mm; sourceTree = "<group>"; };
+		64E4B4021F74F5BD003C816F /* FSCheckContentTypeRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCheckContentTypeRequest.h; sourceTree = "<group>"; };
+		64E4B4031F74F5BD003C816F /* FSCheckContentTypeRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCheckContentTypeRequest.m; sourceTree = "<group>"; };
+		64E4B4041F74F5BD003C816F /* FSParsePlaylistRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSParsePlaylistRequest.h; sourceTree = "<group>"; };
+		64E4B4051F74F5BD003C816F /* FSParsePlaylistRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSParsePlaylistRequest.m; sourceTree = "<group>"; };
+		64E4B4061F74F5BD003C816F /* FSParseRssPodcastFeedRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSParseRssPodcastFeedRequest.h; sourceTree = "<group>"; };
+		64E4B4071F74F5BD003C816F /* FSParseRssPodcastFeedRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSParseRssPodcastFeedRequest.m; sourceTree = "<group>"; };
+		64E4B4081F74F5BD003C816F /* FSPlaylistItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPlaylistItem.h; sourceTree = "<group>"; };
+		64E4B4091F74F5BD003C816F /* FSPlaylistItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSPlaylistItem.m; sourceTree = "<group>"; };
+		64E4B40A1F74F5BD003C816F /* FSXMLHttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSXMLHttpRequest.h; sourceTree = "<group>"; };
+		64E4B40B1F74F5BD003C816F /* FSXMLHttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSXMLHttpRequest.m; sourceTree = "<group>"; };
+		64E4B40C1F74F5BD003C816F /* http_stream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = http_stream.cpp; sourceTree = "<group>"; };
+		64E4B40D1F74F5BD003C816F /* http_stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = http_stream.h; sourceTree = "<group>"; };
+		64E4B40E1F74F5BD003C816F /* id3_parser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = id3_parser.cpp; sourceTree = "<group>"; };
+		64E4B40F1F74F5BD003C816F /* id3_parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = id3_parser.h; sourceTree = "<group>"; };
+		64E4B4101F74F5BD003C816F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64E4B4111F74F5BD003C816F /* input_stream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = input_stream.cpp; sourceTree = "<group>"; };
+		64E4B4121F74F5BD003C816F /* input_stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = input_stream.h; sourceTree = "<group>"; };
+		64E4B4131F74F5BD003C816F /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		64E4B4141F74F5BD003C816F /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		64E4B4151F74F5BD003C816F /* stream_configuration.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stream_configuration.cpp; sourceTree = "<group>"; };
+		64E4B4161F74F5BD003C816F /* stream_configuration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stream_configuration.h; sourceTree = "<group>"; };
+		64E4B42A1F74F5F8003C816F /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		64E4B42C1F74F6D9003C816F /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		64E4B42D1F74F6D9003C816F /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		64E4B42F1F74F7F5003C816F /* AudioPlayerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioPlayerVC.h; sourceTree = "<group>"; };
+		64E4B4301F74F7F5003C816F /* AudioPlayerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioPlayerVC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64E4B33F1F74EF33003C816F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64E4B42B1F74F5F8003C816F /* libxml2.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64E4B3581F74EF36003C816F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64E4B3631F74EF37003C816F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64E4B3391F74EF33003C816F = {
+			isa = PBXGroup;
+			children = (
+				64E4B3441F74EF34003C816F /* YMTools */,
+				64E4B35E1F74EF36003C816F /* YMToolsTests */,
+				64E4B3691F74EF37003C816F /* YMToolsUITests */,
+				64E4B3431F74EF34003C816F /* Products */,
+				64E4B4291F74F5F8003C816F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		64E4B3431F74EF34003C816F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64E4B3421F74EF33003C816F /* YMTools.app */,
+				64E4B35B1F74EF36003C816F /* YMToolsTests.xctest */,
+				64E4B3661F74EF37003C816F /* YMToolsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64E4B3441F74EF34003C816F /* YMTools */ = {
+			isa = PBXGroup;
+			children = (
+				64E4B3791F74F15F003C816F /* AudioPlayer */,
+				64E4B42C1F74F6D9003C816F /* RootViewController.h */,
+				64E4B42D1F74F6D9003C816F /* RootViewController.m */,
+				64E4B42F1F74F7F5003C816F /* AudioPlayerVC.h */,
+				64E4B4301F74F7F5003C816F /* AudioPlayerVC.m */,
+				64E4B3481F74EF34003C816F /* AppDelegate.h */,
+				64E4B3491F74EF34003C816F /* AppDelegate.m */,
+				64E4B34E1F74EF34003C816F /* Main.storyboard */,
+				64E4B3511F74EF34003C816F /* Assets.xcassets */,
+				64E4B3531F74EF34003C816F /* LaunchScreen.storyboard */,
+				64E4B3561F74EF34003C816F /* Info.plist */,
+				64E4B3451F74EF34003C816F /* Supporting Files */,
+			);
+			path = YMTools;
+			sourceTree = "<group>";
+		};
+		64E4B3451F74EF34003C816F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				64E4B3781F74EF6F003C816F /* PrefixHeader.pch */,
+				64E4B3461F74EF34003C816F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		64E4B35E1F74EF36003C816F /* YMToolsTests */ = {
+			isa = PBXGroup;
+			children = (
+				64E4B35F1F74EF36003C816F /* YMToolsTests.m */,
+				64E4B3611F74EF37003C816F /* Info.plist */,
+			);
+			path = YMToolsTests;
+			sourceTree = "<group>";
+		};
+		64E4B3691F74EF37003C816F /* YMToolsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				64E4B36A1F74EF37003C816F /* YMToolsUITests.m */,
+				64E4B36C1F74EF37003C816F /* Info.plist */,
+			);
+			path = YMToolsUITests;
+			sourceTree = "<group>";
+		};
+		64E4B3791F74F15F003C816F /* AudioPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				64E4B3F21F74F5BD003C816F /* FreeStreamer */,
+				64E4B39F1F74F15F003C816F /* WJNetAudioPlayer.h */,
+				64E4B3A01F74F15F003C816F /* WJNetAudioPlayer.m */,
+			);
+			path = AudioPlayer;
+			sourceTree = "<group>";
+		};
+		64E4B3F21F74F5BD003C816F /* FreeStreamer */ = {
+			isa = PBXGroup;
+			children = (
+				64E4B3F31F74F5BD003C816F /* audio_queue.cpp */,
+				64E4B3F41F74F5BD003C816F /* audio_queue.h */,
+				64E4B3F51F74F5BD003C816F /* audio_stream.cpp */,
+				64E4B3F61F74F5BD003C816F /* audio_stream.h */,
+				64E4B3F71F74F5BD003C816F /* caching_stream.cpp */,
+				64E4B3F81F74F5BD003C816F /* caching_stream.h */,
+				64E4B3F91F74F5BD003C816F /* file_output.cpp */,
+				64E4B3FA1F74F5BD003C816F /* file_output.h */,
+				64E4B3FB1F74F5BD003C816F /* file_stream.cpp */,
+				64E4B3FC1F74F5BD003C816F /* file_stream.h */,
+				64E4B3FD1F74F5BD003C816F /* FreeStreamer.h */,
+				64E4B3FE1F74F5BD003C816F /* FSAudioController.h */,
+				64E4B3FF1F74F5BD003C816F /* FSAudioController.m */,
+				64E4B4001F74F5BD003C816F /* FSAudioStream.h */,
+				64E4B4011F74F5BD003C816F /* FSAudioStream.mm */,
+				64E4B4021F74F5BD003C816F /* FSCheckContentTypeRequest.h */,
+				64E4B4031F74F5BD003C816F /* FSCheckContentTypeRequest.m */,
+				64E4B4041F74F5BD003C816F /* FSParsePlaylistRequest.h */,
+				64E4B4051F74F5BD003C816F /* FSParsePlaylistRequest.m */,
+				64E4B4061F74F5BD003C816F /* FSParseRssPodcastFeedRequest.h */,
+				64E4B4071F74F5BD003C816F /* FSParseRssPodcastFeedRequest.m */,
+				64E4B4081F74F5BD003C816F /* FSPlaylistItem.h */,
+				64E4B4091F74F5BD003C816F /* FSPlaylistItem.m */,
+				64E4B40A1F74F5BD003C816F /* FSXMLHttpRequest.h */,
+				64E4B40B1F74F5BD003C816F /* FSXMLHttpRequest.m */,
+				64E4B40C1F74F5BD003C816F /* http_stream.cpp */,
+				64E4B40D1F74F5BD003C816F /* http_stream.h */,
+				64E4B40E1F74F5BD003C816F /* id3_parser.cpp */,
+				64E4B40F1F74F5BD003C816F /* id3_parser.h */,
+				64E4B4101F74F5BD003C816F /* Info.plist */,
+				64E4B4111F74F5BD003C816F /* input_stream.cpp */,
+				64E4B4121F74F5BD003C816F /* input_stream.h */,
+				64E4B4131F74F5BD003C816F /* Reachability.h */,
+				64E4B4141F74F5BD003C816F /* Reachability.m */,
+				64E4B4151F74F5BD003C816F /* stream_configuration.cpp */,
+				64E4B4161F74F5BD003C816F /* stream_configuration.h */,
+			);
+			path = FreeStreamer;
+			sourceTree = "<group>";
+		};
+		64E4B4291F74F5F8003C816F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64E4B42A1F74F5F8003C816F /* libxml2.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64E4B3411F74EF33003C816F /* YMTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64E4B36F1F74EF37003C816F /* Build configuration list for PBXNativeTarget "YMTools" */;
+			buildPhases = (
+				64E4B33E1F74EF33003C816F /* Sources */,
+				64E4B33F1F74EF33003C816F /* Frameworks */,
+				64E4B3401F74EF33003C816F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YMTools;
+			productName = YMTools;
+			productReference = 64E4B3421F74EF33003C816F /* YMTools.app */;
+			productType = "com.apple.product-type.application";
+		};
+		64E4B35A1F74EF36003C816F /* YMToolsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64E4B3721F74EF37003C816F /* Build configuration list for PBXNativeTarget "YMToolsTests" */;
+			buildPhases = (
+				64E4B3571F74EF36003C816F /* Sources */,
+				64E4B3581F74EF36003C816F /* Frameworks */,
+				64E4B3591F74EF36003C816F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64E4B35D1F74EF36003C816F /* PBXTargetDependency */,
+			);
+			name = YMToolsTests;
+			productName = YMToolsTests;
+			productReference = 64E4B35B1F74EF36003C816F /* YMToolsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		64E4B3651F74EF37003C816F /* YMToolsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64E4B3751F74EF37003C816F /* Build configuration list for PBXNativeTarget "YMToolsUITests" */;
+			buildPhases = (
+				64E4B3621F74EF37003C816F /* Sources */,
+				64E4B3631F74EF37003C816F /* Frameworks */,
+				64E4B3641F74EF37003C816F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64E4B3681F74EF37003C816F /* PBXTargetDependency */,
+			);
+			name = YMToolsUITests;
+			productName = YMToolsUITests;
+			productReference = 64E4B3661F74EF37003C816F /* YMToolsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64E4B33A1F74EF33003C816F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = yanming;
+				TargetAttributes = {
+					64E4B3411F74EF33003C816F = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = F5V29E887X;
+						ProvisioningStyle = Automatic;
+					};
+					64E4B35A1F74EF36003C816F = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = F5V29E887X;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 64E4B3411F74EF33003C816F;
+					};
+					64E4B3651F74EF37003C816F = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = F5V29E887X;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 64E4B3411F74EF33003C816F;
+					};
+				};
+			};
+			buildConfigurationList = 64E4B33D1F74EF33003C816F /* Build configuration list for PBXProject "YMTools" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64E4B3391F74EF33003C816F;
+			productRefGroup = 64E4B3431F74EF34003C816F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64E4B3411F74EF33003C816F /* YMTools */,
+				64E4B35A1F74EF36003C816F /* YMToolsTests */,
+				64E4B3651F74EF37003C816F /* YMToolsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64E4B3401F74EF33003C816F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64E4B4251F74F5BD003C816F /* Info.plist in Resources */,
+				64E4B3551F74EF34003C816F /* LaunchScreen.storyboard in Resources */,
+				64E4B3521F74EF34003C816F /* Assets.xcassets in Resources */,
+				64E4B3501F74EF34003C816F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64E4B3591F74EF36003C816F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64E4B3641F74EF37003C816F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64E4B33E1F74EF33003C816F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64E4B4221F74F5BD003C816F /* FSXMLHttpRequest.m in Sources */,
+				64E4B41A1F74F5BD003C816F /* file_output.cpp in Sources */,
+				64E4B4311F74F7F5003C816F /* AudioPlayerVC.m in Sources */,
+				64E4B4171F74F5BD003C816F /* audio_queue.cpp in Sources */,
+				64E4B41E1F74F5BD003C816F /* FSCheckContentTypeRequest.m in Sources */,
+				64E4B34A1F74EF34003C816F /* AppDelegate.m in Sources */,
+				64E4B41B1F74F5BD003C816F /* file_stream.cpp in Sources */,
+				64E4B4241F74F5BD003C816F /* id3_parser.cpp in Sources */,
+				64E4B4281F74F5BD003C816F /* stream_configuration.cpp in Sources */,
+				64E4B42E1F74F6D9003C816F /* RootViewController.m in Sources */,
+				64E4B41C1F74F5BD003C816F /* FSAudioController.m in Sources */,
+				64E4B3B31F74F15F003C816F /* WJNetAudioPlayer.m in Sources */,
+				64E4B4261F74F5BD003C816F /* input_stream.cpp in Sources */,
+				64E4B4231F74F5BD003C816F /* http_stream.cpp in Sources */,
+				64E4B4181F74F5BD003C816F /* audio_stream.cpp in Sources */,
+				64E4B41F1F74F5BD003C816F /* FSParsePlaylistRequest.m in Sources */,
+				64E4B4271F74F5BD003C816F /* Reachability.m in Sources */,
+				64E4B4211F74F5BD003C816F /* FSPlaylistItem.m in Sources */,
+				64E4B4191F74F5BD003C816F /* caching_stream.cpp in Sources */,
+				64E4B3471F74EF34003C816F /* main.m in Sources */,
+				64E4B4201F74F5BD003C816F /* FSParseRssPodcastFeedRequest.m in Sources */,
+				64E4B41D1F74F5BD003C816F /* FSAudioStream.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64E4B3571F74EF36003C816F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64E4B3601F74EF36003C816F /* YMToolsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64E4B3621F74EF37003C816F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64E4B36B1F74EF37003C816F /* YMToolsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64E4B35D1F74EF36003C816F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64E4B3411F74EF33003C816F /* YMTools */;
+			targetProxy = 64E4B35C1F74EF36003C816F /* PBXContainerItemProxy */;
+		};
+		64E4B3681F74EF37003C816F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64E4B3411F74EF33003C816F /* YMTools */;
+			targetProxy = 64E4B3671F74EF37003C816F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		64E4B34E1F74EF34003C816F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64E4B34F1F74EF34003C816F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		64E4B3531F74EF34003C816F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64E4B3541F74EF34003C816F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64E4B36D1F74EF37003C816F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		64E4B36E1F74EF37003C816F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64E4B3701F74EF37003C816F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F5V29E887X;
+				GCC_PREFIX_HEADER = $SRCROOT/YMTools/PrefixHeader.pch;
+				HEADER_SEARCH_PATHS = "${SDK_DIR}/usr/include/libxml2";
+				INFOPLIST_FILE = YMTools/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dazhi.YMTools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		64E4B3711F74EF37003C816F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F5V29E887X;
+				GCC_PREFIX_HEADER = $SRCROOT/YMTools/PrefixHeader.pch;
+				HEADER_SEARCH_PATHS = "${SDK_DIR}/usr/include/libxml2";
+				INFOPLIST_FILE = YMTools/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dazhi.YMTools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		64E4B3731F74EF37003C816F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = F5V29E887X;
+				INFOPLIST_FILE = YMToolsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dazhi.YMToolsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YMTools.app/YMTools";
+			};
+			name = Debug;
+		};
+		64E4B3741F74EF37003C816F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = F5V29E887X;
+				INFOPLIST_FILE = YMToolsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dazhi.YMToolsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YMTools.app/YMTools";
+			};
+			name = Release;
+		};
+		64E4B3761F74EF37003C816F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = F5V29E887X;
+				INFOPLIST_FILE = YMToolsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dazhi.YMToolsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YMTools;
+			};
+			name = Debug;
+		};
+		64E4B3771F74EF37003C816F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = F5V29E887X;
+				INFOPLIST_FILE = YMToolsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dazhi.YMToolsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YMTools;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64E4B33D1F74EF33003C816F /* Build configuration list for PBXProject "YMTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64E4B36D1F74EF37003C816F /* Debug */,
+				64E4B36E1F74EF37003C816F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64E4B36F1F74EF37003C816F /* Build configuration list for PBXNativeTarget "YMTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64E4B3701F74EF37003C816F /* Debug */,
+				64E4B3711F74EF37003C816F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		64E4B3721F74EF37003C816F /* Build configuration list for PBXNativeTarget "YMToolsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64E4B3731F74EF37003C816F /* Debug */,
+				64E4B3741F74EF37003C816F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		64E4B3751F74EF37003C816F /* Build configuration list for PBXNativeTarget "YMToolsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64E4B3761F74EF37003C816F /* Debug */,
+				64E4B3771F74EF37003C816F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64E4B33A1F74EF33003C816F /* Project object */;
+}
